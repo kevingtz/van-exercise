@@ -1,0 +1,1 @@
+FROM kevinloygtz0907/devops-test:latest
