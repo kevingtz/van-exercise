@@ -5,6 +5,7 @@ Backend that store the latitude and longitude of an object
 * This project needs Postgres and GDAL dependencies:
     - I recomend to run this project using a Docker image having all the depandencies already installed. You can try with this one: `kevinloygtz0907/devops-test:latest`
     - Also, you can use a virtual env to install the dependancies
+    - Remember to set your DB credentials in settings file
 
 * Run app: `python3 manage.py runserver`
 * Run migrations: `python3 manage.py migrate`  
